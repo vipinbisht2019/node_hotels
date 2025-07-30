@@ -39,7 +39,7 @@ router.post('/',async(req,res)=>{
         const response = await newMenu.save();
 
         if(response) {
-        console.log('Data Updated successfully');
+        console.log('Data added successfully');
         res.status(200).json(response);
         } else {
 
